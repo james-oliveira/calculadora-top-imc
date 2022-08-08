@@ -1,0 +1,47 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  height: 100vh;
+
+}
+
+#bodysite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100px;
+  background-color: lightcyan;
+}
+
+#button-calculate-imc {
+   
+}
+
+#p-imc {
+  margin-top: 100px;
+;
+}
+
+#p-imc-current {
+  margin: 50px 0px 50px 0px;
+  text-decoration: none;
+}
+
+
+
+#contact {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#contact a {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+  font-size: 28px;
+}

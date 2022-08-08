@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <script data-ad-client="ca-pub-4848539261829137" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>IMC v2</title>
+  </head>
+  <body id = "bodysite">
+    <h1>IMC v2</h1>
+
+    <p>
+      <label for="input-weight">Informe o seu peso (kg):</label>
+      <input
+        id="input-weight"
+        type="number"
+        min="10"
+        max="200"
+        step="0.1"
+        value="90"
+      />
+    </p>
+
+    <p>
+      <label for="input-height">Informe a sua altura (m):</label>
+      <input
+        id="input-height"
+        type="number"
+        min="1"
+        max="3"
+        step="0.01"
+        value="1.6"
+      />
+    </p>
+
+    <p>
+      <button id="button-calculate-imc">Calcular IMC</button>
+    </p>
+
+    <p id="p-imc">O seu IMC é <strong id="imc-result"></strong></p>
+
+    <p id="p-imc-current">Este valor considera que você está na faixa: <strong id="imc-current"></strong> </p>
+
+    <p><strong> Tabela informativa</strong>:</p>
+
+      <ul>      
+    
+
+        <li>16 a 16,9 kg/m² - Muito abaixo do peso</li>
+        <li> 17 a 18,4 kg/m² - Abaixo do peso </li>
+        <li>18,5 a 24,9 kg/m² - Peso normal</li>
+        <li>25 a 29,9 kg/m² - Acima do peso </li>
+        <li>30 a 34,9 kg/m² - Obesidade grau I </li>
+        <li>35 a 40 kg/m² - Obesidade grau II   </li>
+        <li>maior que 40 kg/m² - Obesidade grau III  </li>
+
+      </ul>
+     
+
+
+
+    <script defer src="./js/script.js"></script>
+  </body>
+  <footer> 
+    <p id="contact">
+            
+      <a href="https://linkr.bio/jamesoliveira">@James_0liveira</a>
+    </p>
+  </footer>
+</html>
